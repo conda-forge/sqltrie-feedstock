@@ -1,11 +1,11 @@
-About sqltrie
-=============
+About sqltrie-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqltrie-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/iterative/sqltrie
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqltrie-feedstock/blob/main/LICENSE.txt)
 
 Summary: SQL-based prefix tree inspired by pygtrie and python-diskcache
 
