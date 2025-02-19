@@ -1,5 +1,5 @@
 {% set name = "sqltrie" %}
-{% set version = "0.11.1" %}
+{% set version = "0.11.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sqltrie-{{ version }}.tar.gz
-  sha256: 56963921dec494881b048e968d5556a90ed273b5dba1ea0aaac462f3b9815d21
+  sha256: 4df47089b3abfe347bcf81044e633b8c7737ebda4ce1fec8b636a85954ac36da
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
